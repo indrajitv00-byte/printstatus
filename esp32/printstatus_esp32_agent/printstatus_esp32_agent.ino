@@ -21,8 +21,8 @@
 #include <time.h>
 
 // ---------- change these ----------
-const char* WIFI_SSID      = "KSUM_2G";               // 2.4 GHz network
-const char* WIFI_PASS      = "k$um4WiF1";
+const char* WIFI_SSID      = "YOUR_WIFI_SSID";        // 2.4 GHz network
+const char* WIFI_PASS      = "YOUR_WIFI_PASSWORD";
 const char* FB_API_KEY     = "AIzaSyDoqgsxBkZDTWCenP5dW_CDlR8Q7iItujQ";            // Firebase console > Project settings > General > Web API Key
 const char* FB_DB_URL      = "https://YOUR-DATABASE-URL";   // Realtime Database URL from the console, no trailing slash
 const char* FB_EMAIL       = "agent@printer-timeline.local"; // the Authentication user made for this ESP32
