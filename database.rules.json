@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "status": {
+      ".read": "auth != null",
+      ".write": "auth != null && auth.token.email === 'agent@printer-timeline.local'"
+    },
+    "config": {
+      ".read": "auth != null && auth.token.email === 'agent@printer-timeline.local'"
+    }
+  }
+}
